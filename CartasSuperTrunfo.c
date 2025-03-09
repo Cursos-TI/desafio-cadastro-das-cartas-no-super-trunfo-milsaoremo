@@ -11,6 +11,9 @@ int main() {
      int Populacao = 1809, Populacao1 = 20000;
      float Area = 41780, Area1 = 4000000, PIB = 4000000, PIB1 = 2000000;
      int pontosturisticos = 5, pontosturisticos1 = 50;
+     float densidadepopulacional = Populacao / Area, densidadepopulacional1 = Populacao1 / Area1;
+     float pibpercapita = PIB / Populacao, pibpercapita1 = PIB1 / Populacao1;
+
 
 
      printf("Carta 1 \n");
@@ -21,7 +24,9 @@ int main() {
      printf("Área: %.0f km²\n", Area);
      printf("PIB: %.0f\n", PIB);
      printf("Número de Pontos Turísticos: %d\n", pontosturisticos);
-   
+     printf("Densidade Populacional: %f\n", densidadepopulacional);
+     printf("PIB per capita: %f\n", pibpercapita);
+     
 //Super trunfo carta 2
 
      printf("\n"); // Para pular uma Linha
@@ -34,10 +39,11 @@ int main() {
      printf("Área: %0.f km²\n", Area1);
      printf("PIB: %.0f\n", PIB1);
      printf("Números de Pontos Turisticos %d\n", pontosturisticos1);
+     printf("Densidade Populacional: %f\n", densidadepopulacional1);
+     printf("PIB per capita: %f\n", pibpercapita1);     
 
 
 
-    
     
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
